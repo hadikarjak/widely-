@@ -100,6 +100,7 @@ body {
 .header {
     padding: 20px;
     background-color: var(--main-color);
+    border-bottom: 2px solid var(--sec-color);
 }
 
 .header .container {
@@ -196,8 +197,7 @@ body {
 /* Start Landing Section */
 
 .landing {
-    background-image: url(../image/hero.jpg);
-    background-size: cover;
+    background-color: var(--main-color);
     height: 400px;
     position: relative;
 }
@@ -226,6 +226,7 @@ body {
 }
 
 .landing .intro-text a {
+    border: 2px solid var(--sec-color);
     background-color: var(--main-color);
     padding: 10px;
     font-size: 20px;
@@ -290,8 +291,7 @@ body {
 .services {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
-    background-image: url(../image/hero.jpg);
-    background-size: cover;
+    background-color: #303047;
 }
 
 .services .services-content {
@@ -455,8 +455,7 @@ body {
 .about {
     padding-top: var(--section-padding);
     padding-bottom: calc(var(--section-padding) + 60px);
-    background-image: url(../image/hero.jpg);
-    background-size: cover;
+    background-color: var(--main-color);
 }
 
 .about .special-heading {
